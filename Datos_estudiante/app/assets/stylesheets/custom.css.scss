@@ -1,0 +1,46 @@
+body {
+    background-color: #f1caca; /* Fondo oscuro */
+    color: #0e0d0d; /* Texto claro */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    color: #d586d8; /* Color suave para encabezados */
+  }
+  
+  a {
+    color: #e2859c; /* Color de enlaces */
+    text1-decoration: none; /* Sin subrayado */
+    
+    &:hover {
+      color: #ec84b5; /* Color de enlace al pasar el mouse */
+    }
+  }
+  
+  button, input[type="submit"] {
+    background-color: #e781b1; /* Color de fondo de botones */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    
+    &:hover {
+      background-color: #ff9ee2; /* Color de fondo al pasar el mouse */
+    }
+  }
+  
+  /* Formulario */
+  input[type="text"], input[type="email"], input[type="password"] {
+    background-color: #817d7d; /* Fondo de campos de entrada */
+    color: #131212; /* Texto blanco */
+    border: 1px solid #f378a1; /* Borde color suave */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado */
+    
+    &:focus {
+      border-color: #ff9e9e; /* Color de borde al enfocar */
+      outline: none; /* Sin contorno */
+    }
+  }
+  
